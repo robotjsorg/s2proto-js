@@ -2,6 +2,8 @@ These are JavaScript buffer definitions for the s2client-api by Blizzard. The Pr
 
 TODO: Explain how to use these.
 
+TODO: Make this into an npm package that works out of the box.
+
 # How to replicate this project
 ## protobuf
 Extract .tar.gz file:
