@@ -37,7 +37,7 @@ Get the project:
 git clone https://github.com/Blizzard/s2client-proto.git
 ```
 
-## Generate JavaScript definitions
+## Generate JavaScript
 cd to the protocol directory:
 ```
 cd /PATH/TO/s2client-api/protocol/s2clientprotocol
