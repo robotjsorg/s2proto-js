@@ -30,6 +30,17 @@ protoc --version
 ```
 
 ## s2client-proto
-TODO.
+Get the project:
+```
+git clone https://github.com/Blizzard/s2client-proto.git
+```
 
 ## Generate JavaScript definitions
+cd to the protocol directory:
+```
+cd /PATH/TO/s2client-api/protocol/s2clientprotocol
+```
+Generate the JavaScript:
+```
+protoc --proto_path=.. --js_out=/home/joe/Documents/s2proto-js s2clientprotocol/sc2api.proto
+```
